@@ -1,4 +1,4 @@
-package by.kadyko.lesson1;
+package by.kadyko.lesson2;
 
 import java.util.Scanner;
 

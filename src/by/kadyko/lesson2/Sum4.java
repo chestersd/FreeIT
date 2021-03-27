@@ -1,4 +1,4 @@
-package by.kadyko.lesson1;
+package by.kadyko.lesson2;
 
 import java.util.Scanner;
 
@@ -29,7 +29,7 @@ public class Sum4 {
 
         }
 
-       System.out.println("There are " + counter + " positive numbers in the original set");
+        System.out.println("There are " + counter + " positive numbers in the original set");
 
     }
 }

@@ -2,13 +2,11 @@ package by.kadyko.lesson2;
 
 import java.util.Scanner;
 
-public class Triangle {
+public class Sum2 {
 
     public static void main(String[] args) {
 
-        boolean AB = false;
-        boolean BC = false;
-        boolean AC = false;
+        boolean ab = false;
 
         System.out.println("Введите длину стороны a");
         Scanner a = new Scanner(System.in);
@@ -25,20 +23,20 @@ public class Triangle {
 
 
         if ((lenOfA + lenOfB) > lenOfC)
-        {AB = true;}
-        else if ((lenOfA + lenOfC) > lenOfB)
-        {AC = true;}
-        else if ((lenOfB + lenOfC) > lenOfA)
-        {BC = true;}
+        {ab = true;}
+//        else if ((lenOfA + lenOfC) > lenOfB)
+//        {ac = true;}
+//        else if ((lenOfB + lenOfC) > lenOfA)
+//        {bc = true;}
 
-        if (AB || AC || BC == true)
+        if (ab == true)
         {
             System.out.println("Такой треугольник существует");
         } else {
             System.out.println("Такой треугольник не существует");
         }
 
-//        3em.out.println("BC " + BC);
+
 
     }
 }
