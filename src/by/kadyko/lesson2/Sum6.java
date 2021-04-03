@@ -1,4 +1,4 @@
-package by.kadyko.lesson1;
+package by.kadyko.lesson2;
 
 // Даны 2 числа. Вывести большее из них
 
